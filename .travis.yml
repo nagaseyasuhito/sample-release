@@ -2,4 +2,4 @@ language: java
 jdk:
 - oraclejdk8
 script:
-- mvn -B release:prepare
+- mvn -B release:prepare -Dusername=$GH_TOKEN
